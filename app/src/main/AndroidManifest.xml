@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hospital.code.com.foesheets">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".Activity.SubjectsActivity"/>
+        <activity android:name=".Activity.AddSubject" />
+        <activity android:name=".Activity.TeachersActivity" />
+        <activity android:name=".Activity.AddTeachers_Activity" />
+        <activity android:name=".Activity.AddSheets_Activity" />
+        <activity android:name=".Activity.Sheets_Activity" />
+        <activity android:name=".Activity.Choosing_Activity" />
+        <activity android:name=".Activity.Solving_Sheet_Activity" />
+        <activity android:name=".Activity.Add_Solving_Sheet_Activity" />
+        <activity android:name=".Activity.Edit_Teacher_Activity" />
+        <activity android:name=".Activity.Edit_Solving_Sheet_Activity" />
+        <activity android:name=".Activity.Edit_Sheet_Activity" />
+        <activity android:name=".Activity.Edit_Subject_Activity" />
+        <activity android:name=".Activity.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

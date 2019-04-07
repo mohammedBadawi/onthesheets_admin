@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SubjectsActivity"
+    android:background="#fff"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="SHEETS"
+        android:id="@+id/tb_solving_sheet"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="#fff">
+    </android.support.v7.widget.Toolbar>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:background="@android:color/black"
+        android:id="@+id/view_toolbar_solving_sheet"
+        android:layout_below="@+id/tb_solving_sheet"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_solving_sheet"
+        android:layout_below="@+id/tb_solving_sheet"
+
+        >
+    </ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="14dp"
+        android:src="@drawable/ic_add_black_24dp"
+        android:id="@+id/fb_add_solving_sheet"
+        />
+
+</RelativeLayout>
